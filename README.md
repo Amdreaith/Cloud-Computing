@@ -89,34 +89,6 @@ Understand middleware patterns and their applications in Express.
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm (comes with Node.js)
-- Code editor (VSCode recommended)
-- Git
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-```
-
-2. Install dependencies (if applicable):
-```bash
-npm install
-```
-
-3. Run example code:
-```bash
-node app.js
-```
-
----
-
 ## 💻 Technologies Used
 
 - **Node.js** - JavaScript runtime environment
@@ -124,26 +96,6 @@ node app.js
 - **JSON** - Data interchange format
 - **npm** - Package manager
 - **curl** - API testing tool
-
----
-
-## 📖 Learning Path
-
-Follow the lessons in order for the best learning experience:
-
-1. **Week 1:** Cloud Computing Fundamentals → Node.js Basics
-2. **Week 2:** REST API Development → Data Management
-3. **Week 3:** Middleware & Advanced Patterns
-
----
-
-## 🛠️ Practical Examples
-
-Each lesson includes:
-- ✅ Complete code examples
-- ✅ Hands-on exercises
-- ✅ curl commands for API testing
-- ✅ Best practices and common pitfalls
 
 ---
 
@@ -164,29 +116,3 @@ Each lesson includes:
 - [HTTP Status Codes](https://httpstatuses.com/)
 
 ---
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
----
-
-## 📬 Contact
-
-For questions or feedback, please open an issue in this repository.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## ⭐ Acknowledgments
-
-Special thanks to all contributors and the Node.js community for making backend development accessible and powerful.
-
----
-
-**Happy Coding! 🚀**
