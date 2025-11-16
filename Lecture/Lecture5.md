@@ -13,7 +13,7 @@
 ### Why It's Important:
 Handles tasks like **logging**, **validation**, **authentication**, and **error handling** in a structured way
 
----
+
 
 ## Middleware Structure
 
@@ -236,13 +236,13 @@ app.listen(3000, () => {
 
 **Testing with curl**:
 
-✅ **Valid request** (has id and name):
+**Valid request** (has id and name):
 ```bash
 curl -X POST http://localhost:3000/api/v1/students -H "Content-Type: application/json" -d '{"id":1,"name":"Alice"}'
 ```
 Response: `201 Created` with student data
 
-❌ **Invalid request** (missing name):
+**Invalid request** (missing name):
 ```bash
 curl -X POST http://localhost:3000/api/v1/students -H "Content-Type: application/json" -d '{"id":1}'
 ```
@@ -347,13 +347,13 @@ app.use('/api', middleware); // Only runs for paths starting with /api
 ## Middleware Execution Order Matters!
 
 ```javascript
-// ❌ WRONG: Route defined before middleware
+// WRONG: Route defined before middleware
 app.get('/students', (req, res) => {
     res.json({ message: "Students" });
 });
 app.use(logger); // Won't log /students requests!
 
-// ✅ CORRECT: Middleware before route
+// CORRECT: Middleware before route
 app.use(logger);
 app.get('/students', (req, res) => {
     res.json({ message: "Students" });
@@ -361,7 +361,7 @@ app.get('/students', (req, res) => {
 ```
 
 
-## Quick Reference
+## Reference
 
 | Middleware Type | Binding | Scope | Example |
 |----------------|---------|-------|---------|
@@ -372,7 +372,7 @@ app.get('/students', (req, res) => {
 
 
 
-## Key Takeaways
+##### Key Takeaways
 
 1. **Middleware = Functions** that run between request and response
 2. **Order matters** - middleware executes top to bottom
