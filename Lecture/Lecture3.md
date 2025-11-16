@@ -4,7 +4,7 @@
 
 **API** = Application Programming Interface
 
-**>> A set of rules and protocols that defines how software products and applications communicate with each other.
+>> A set of rules and protocols that defines how software products and applications communicate with each other.
 ![alt text](image.png)
 ###  Restaurant Analogy:
 - **You** = Client application
