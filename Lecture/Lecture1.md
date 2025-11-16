@@ -5,7 +5,7 @@
 **Simple Example**:
          Google Drive - upload files to servers, access anywhere with internet
 
----
+
 
 ## Cloud Service Models (IaaS, PaaS, SaaS)
 
@@ -27,7 +27,7 @@
 - **Provider manages**: Everything
 - **Examples**: Gmail, Office 365, Dropbox
 
----
+
 
 ## Cloud Deployment Types
 
@@ -37,7 +37,7 @@
 | **Private Cloud** | Single organization only | On-site or hosted | More security/control, more expensive |
 | **Hybrid Cloud** | Public + Private combination | Sensitive data private, other workloads public | Balance of both |
 
----
+
 
 ## History Timeline
 
@@ -47,7 +47,6 @@
 - **2006**: AWS launches (major turning point - businesses can rent instead of own)
 - **2010s-Present**: Azure, GCP enter market; cloud becomes essential to modern IT
 
----
 
 ## Major Cloud Providers
 
@@ -65,7 +64,7 @@
 
 **Others**: IBM Cloud, Oracle Cloud, Alibaba Cloud
 
----
+
 
 ## Cloud Computing Roles
 
@@ -75,7 +74,7 @@
 - **Cloud Solutions Architect**: Designs business-specific solutions using cloud tech
 - **Cloud Security Specialist**: Protects systems, ensures data privacy
 
----
+
 
 ## Connection to Backend Development
 
@@ -91,11 +90,10 @@
 2. Use cloud databases (AWS DynamoDB, Azure CosmosDB, Firebase)
 3. Deploy API to cloud for global access
 
-**Key Insight**: Almost all modern backend development uses cloud platforms for hosting and scaling
+** Insight**: Almost all modern backend development uses cloud platforms for hosting and scaling
 
----
 
-## Key Benefits of Cloud Computing
+## Benefits of Cloud Computing
 
 1. **Cost-effective**: Pay only for what you use
 2. **Scalable**: Easily add resources as you grow
