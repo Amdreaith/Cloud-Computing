@@ -38,7 +38,7 @@ You don't directly interact with kitchen, just like programs don't directly inte
 
 **JSON** = JavaScript Object Notation
 
-**>> Simple format for storing and sharing data (plain text with specific structure)
+>> Simple format for storing and sharing data (plain text with specific structure)
 
 ### Example JSON:
 ```json
@@ -57,7 +57,7 @@ You don't directly interact with kitchen, just like programs don't directly inte
 
 **npm** = Node Package Manager
 
-** >> a tool that comes with Node.js to install and manage packages (reusable code)
+ >> a tool that comes with Node.js to install and manage packages (reusable code)
 
 ### Install a package:
 ```bash
