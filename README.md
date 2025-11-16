@@ -1,4 +1,4 @@
-# IT ELECTIVE : Cloud Computing & Node.js Development
+# IT ELECTIVE
 
 This repository contains lecture notes, code examples, and hands-on exercises for backend development in cloud environments.
 
@@ -15,7 +15,6 @@ Learn the fundamentals of cloud computing, service models, and major cloud provi
 - Cloud Computing Roles
 - History and Evolution of Cloud Computing
 
----
 
 ### [Lecture 2: Introduction to Node.js](./Lecture/Lecture2.md)
 Understand Node.js runtime environment and core modules for cloud development.
@@ -27,12 +26,9 @@ Understand Node.js runtime environment and core modules for cloud development.
 - Why Node.js is Useful in Cloud Computing
 - Non-blocking I/O and Event-driven Architecture
 
-**Key Skills:**
-- Setting up Node.js environment
-- Using built-in modules
-- Creating a basic HTTP server
 
----
+
+
 
 ### [Lecture 3: Building REST APIs with Node.js](./Lecture/Lecture3.md)
 Master REST API development using Express framework.
@@ -46,12 +42,6 @@ Master REST API development using Express framework.
 - Routes and Route Handlers
 - Testing APIs with curl
 
-**Key Skills:**
-- Creating REST APIs with Express
-- Handling HTTP requests and responses
-- API testing and debugging
-
----
 
 ### [Lecture 4: Working with Data and API Best Practices](./Lecture/Lecture4.md)
 Learn data storage strategies and professional API development standards.
@@ -63,13 +53,6 @@ Learn data storage strategies and professional API development standards.
 - HTTP Status Codes (2xx, 4xx, 5xx)
 - API Best Practices (Versioning, Naming Conventions, Error Handling)
 
-**Key Skills:**
-- Reading and writing JSON files
-- Implementing full CRUD functionality
-- Using proper HTTP status codes
-- Following REST API conventions
-
----
 
 ### [Lecture 5: Middleware in REST APIs](./Lecture/Lecture5.md)
 Understand middleware patterns and their applications in Express.
@@ -81,13 +64,6 @@ Understand middleware patterns and their applications in Express.
 - Common Use Cases (Logging, Validation, Authentication)
 - Creating Custom Middleware Functions
 
-**Key Skills:**
-- Writing custom middleware
-- Request validation
-- Logging and debugging
-- Middleware chaining
-
----
 
 ## 💻 Technologies Used
 
@@ -97,7 +73,6 @@ Understand middleware patterns and their applications in Express.
 - **npm** - Package manager
 - **curl** - API testing tool
 
----
 
 ## 📝 Additional Resources
 

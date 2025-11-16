@@ -1,0 +1,16 @@
+{
+  "name": "lec-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "API_using_Express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,2 @@
+Hello, this is a file created with Node.js!
+Adding a new line of text.

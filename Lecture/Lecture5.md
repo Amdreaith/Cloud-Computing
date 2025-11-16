@@ -5,10 +5,10 @@
 **Middleware** = Function that sits **between** the request and response cycle
 
 ### What Middleware Can Do:
-- ✅ Modify request or response objects
-- ✅ Execute code
-- ✅ End the request-response cycle
-- ✅ Call the next middleware in the stack
+-  Modify request or response objects
+-  Execute code
+-  End the request-response cycle
+-  Call the next middleware in the stack
 
 ### Why It's Important:
 Handles tasks like **logging**, **validation**, **authentication**, and **error handling** in a structured way
@@ -31,9 +31,8 @@ app.use((req, res, next) => {
 | **res** | Response object (send data back) |
 | **next** | Function to move to next middleware |
 
-**Execution Order**: Middleware runs in the order it's defined ⬇️
+**Execution Order**: Middleware runs in the order it's defined 
 
----
 
 ## Are Routes Middleware?
 
@@ -43,8 +42,8 @@ app.use((req, res, next) => {
 
 | Type | Calls `next()`? | Ends Cycle? |
 |------|----------------|-------------|
-| **Regular Middleware** | ✅ Yes | ❌ No |
-| **Route Handler** | ❌ Usually not | ✅ Yes (sends response) |
+| **Regular Middleware** |  Yes |  No |
+| **Route Handler** |  Usually not |  Yes (sends response) |
 
 ### Example:
 ```javascript
@@ -54,7 +53,7 @@ app.get('/hello', (req, res) => {
 });
 ```
 
----
+
 
 ## Types of Middleware
 
@@ -75,7 +74,6 @@ app.use((req, res, next) => {
 });
 ```
 
----
 
 ### 2. Router-Level Middleware
 
@@ -109,7 +107,7 @@ app.listen(3000, () => {
 
 **Result**: Accessing `/api/v1/students` triggers router middleware first, then the route
 
----
+
 
 ### 3. Built-in Middleware
 
@@ -129,7 +127,7 @@ app.use(express.json());
 app.use(express.static("public"));
 ```
 
----
+
 
 ### 4. Third-Party Middleware
 
@@ -143,7 +141,7 @@ const morgan = require("morgan");
 app.use(morgan("dev")); // Logs all requests
 ```
 
----
+
 
 ## Common Use Cases for Middleware
 
@@ -154,7 +152,7 @@ app.use(morgan("dev")); // Logs all requests
 | **Validation** | Check request data validity | Ensure required fields exist |
 | **Error Handling** | Catch and handle errors | Return proper error responses |
 
----
+
 
 ## Hands-on Examples
 
@@ -195,7 +193,7 @@ app.listen(port, () => {
 GET /api/v1/students
 ```
 
----
+
 
 ### Example 2: Request Validator Middleware
 
@@ -250,7 +248,7 @@ curl -X POST http://localhost:3000/api/v1/students -H "Content-Type: application
 ```
 Response: `400 Bad Request` - "Student must have id and name"
 
----
+
 
 ### Example 3: Multiple Middleware (Execution Order)
 
@@ -290,7 +288,7 @@ This runs second
 This runs third
 ```
 
----
+
 
 ## Middleware Flow Diagram
 
@@ -301,7 +299,6 @@ Request → Middleware 1 → Middleware 2 → Route Handler → Response
 
 **Important**: If you forget `next()`, the request will hang! ⚠️
 
----
 
 ## Common Middleware Patterns
 
@@ -333,11 +330,11 @@ app.post('/students',
 app.use('/api', middleware); // Only runs for paths starting with /api
 ```
 
----
+
 
 ## Best Practices
 
-| ✅ Do | ❌ Don't |
+|  Do |  Don't |
 |------|---------|
 | Always call `next()` unless ending response | Forget `next()` (request will hang) |
 | Place middleware before routes | Place middleware after routes (won't work) |
@@ -345,7 +342,7 @@ app.use('/api', middleware); // Only runs for paths starting with /api
 | Use descriptive middleware names | Use generic names like `middleware1` |
 | Handle errors properly | Let errors crash the server |
 
----
+
 
 ## Middleware Execution Order Matters!
 
@@ -363,7 +360,6 @@ app.get('/students', (req, res) => {
 });
 ```
 
----
 
 ## Quick Reference
 
@@ -374,7 +370,7 @@ app.get('/students', (req, res) => {
 | **Built-in** | Comes with Express | Varies | `express.static()` |
 | **Third-party** | Install from npm | Varies | `morgan`, `cors` |
 
----
+
 
 ## Key Takeaways
 

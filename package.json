@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "it-elective---3",
+  "version": "1.0.0",
+  "description": "This repository contains lecture notes, code examples, and hands-on exercises for backend development in cloud environments.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amdreaith/Cloud-Computing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Amdreaith/Cloud-Computing/issues"
+  },
+  "homepage": "https://github.com/Amdreaith/Cloud-Computing#readme"
+}

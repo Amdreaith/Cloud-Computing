@@ -1,29 +1,28 @@
 # Cloud Computing - Lecture 1
 
-## Definition :
+**Cloud Computing**>> Delivery of computing services (storage, databases, servers, networking, software, analytics) over the internet. Pay only for what you use, access resources on-demand.
 
-**Cloud Computing**: Delivery of computing services (storage, databases, servers, networking, software, analytics) over the internet. Pay only for what you use, access resources on-demand.
-
-**Simple Example**: Google Drive - upload files to servers, access anywhere with internet
+**Simple Example**:
+         Google Drive - upload files to servers, access anywhere with internet
 
 ---
 
 ## Cloud Service Models (IaaS, PaaS, SaaS)
 
 ### 1. Infrastructure as a Service (IaaS)
-- **What it provides**: Basic infrastructure (servers, storage, networking)
+- **What it provides**? Basic infrastructure (servers, storage, networking)
 - **Your control**: Operating system and applications
 - **Provider manages**: Hardware
 - **Examples**: Amazon EC2, Azure Virtual Machines
 
 ### 2. Platform as a Service (PaaS)
-- **What it provides**: Platform for building/deploying applications
+- **What it provides**? Platform for building/deploying applications
 - **Your control**: Application code
 - **Provider manages**: Hardware and OS
 - **Examples**: Heroku, Google App Engine, Azure App Service
 
 ### 3. Software as a Service (SaaS)
-- **What it provides**: Ready-to-use applications
+- **What it provides**? Ready-to-use applications
 - **Your control**: Just use the software
 - **Provider manages**: Everything
 - **Examples**: Gmail, Office 365, Dropbox

@@ -4,9 +4,9 @@
 
 **API** = Application Programming Interface
 
-**Definition**: A set of rules and protocols that defines how software products and applications communicate with each other.
-
-### 🍽️ Restaurant Analogy:
+**>> A set of rules and protocols that defines how software products and applications communicate with each other.
+![alt text](image.png)
+###  Restaurant Analogy:
 - **You** = Client application
 - **Waiter** = API
 - **Kitchen** = Server/Database
@@ -15,13 +15,13 @@ You give order to waiter → Waiter passes to kitchen → Waiter brings food bac
 
 You don't directly interact with kitchen, just like programs don't directly interact with servers.
 
----
+
 
 ## 2. What is REST?
 
 **REST** = Representational State Transfer
 
-**Definition**: A style of building APIs using the HTTP protocol (same as websites use)
+**>> A style of building APIs using the HTTP protocol (same as websites use)
 
 ### HTTP Methods (CRUD Operations):
 
@@ -32,13 +32,13 @@ You don't directly interact with kitchen, just like programs don't directly inte
 | **PUT** | Update existing data | Update a student's name |
 | **DELETE** | Remove data | Delete a student from list |
 
----
+
 
 ## 3. What is JSON?
 
 **JSON** = JavaScript Object Notation
 
-**Definition**: Simple format for storing and sharing data (plain text with specific structure)
+**>> Simple format for storing and sharing data (plain text with specific structure)
 
 ### Example JSON:
 ```json
@@ -51,13 +51,13 @@ You don't directly interact with kitchen, just like programs don't directly inte
 
 **Why it's important**: Standard format for data exchange in REST APIs
 
----
+
 
 ## 4. What is npm?
 
 **npm** = Node Package Manager
 
-**Definition**: Tool that comes with Node.js to install and manage packages (reusable code)
+** >> a tool that comes with Node.js to install and manage packages (reusable code)
 
 ### Install a package:
 ```bash
@@ -66,7 +66,7 @@ npm install express
 
 **Package** = Set of reusable code written by someone else
 
----
+
 
 ## 5. What is Express?
 
@@ -79,7 +79,7 @@ npm install express
 - Code is shorter and cleaner than using built-in `http` module
 - Most popular Node.js framework
 
----
+
 
 ## 6. What are Routes?
 
@@ -94,7 +94,7 @@ app.get('/hello', (req, res) => {
 });
 ```
 
----
+
 
 ## 7. Building a REST API with Express
 
@@ -180,7 +180,7 @@ node app.js
 
 **Note**: Data is stored in memory only (not permanent). Real apps use databases.
 
----
+
 
 ## 8. What is curl?
 
@@ -191,7 +191,6 @@ node app.js
 - Simulate GET, POST, PUT, DELETE requests
 - Useful for debugging and checking if API works
 
----
 
 ## 9. Testing API with CURL
 
@@ -264,7 +263,7 @@ curl -X DELETE http://localhost:3000/students/4
 - Mobile app backends
 - Third-party integrations
 
----
+
 
 ## Key Concepts Summary
 
@@ -279,7 +278,7 @@ curl -X DELETE http://localhost:3000/students/4
 | **curl** | Command-line tool for testing APIs |
 | **Middleware** | Functions that process requests (e.g., `express.json()`) |
 
----
+
 
 ## Code Structure Breakdown
 
@@ -304,9 +303,9 @@ app.listen(port, () => {...});          // Start server
 - **req.body** - Data sent in POST request
 - **req.params** - URL parameters (e.g., `:id`)
 
----
 
-## Quick Reference: File Structure
+
+##  File Structure
 
 ```
 project-folder/
@@ -315,4 +314,3 @@ project-folder/
 └── node_modules/       # Installed packages (auto-generated)
 ```
 
-**Never manually edit `node_modules`!**

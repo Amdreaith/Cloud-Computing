@@ -2,7 +2,7 @@
 
 ## What is Node.js?
 
-**Definition**: Open-source runtime environment that runs JavaScript code **outside of a browser**
+** >> it is a Open-source runtime environment that runs JavaScript code **outside of a browser**
 
 **Built on**: V8 JavaScript engine (same as Google Chrome)
 
@@ -32,29 +32,8 @@ node --version
 
 ---
 
-## Your First Node.js Program
-
-### Setup (Using VSCode):
-1. Open VSCode
-2. Click Documents → Open Folder
-3. Select/create project folder
-4. Right-click Explorer → New File → Name it `index.js`
-
-### Code:
-```javascript
-console.log("Hello World");
-```
-
-### Run:
-1. Click File → New Terminal
-2. Type: `node index.js`
-3. Output: `Hello World`
-
----
-
 ## Core Modules
 
-Node.js has built-in modules - no installation needed!
 
 ### 1. The `os` Module (Operating System Info)
 
@@ -152,12 +131,12 @@ All major cloud providers support Node.js:
 - **Rapid Development**: Quick integration of tools, frameworks, cloud SDKs
 - **Easy Scaling**: Works with auto-scaling and load balancing features
 
-### Summary - Node.js is ideal for cloud because it:
-1. ✅ Maximizes performance with efficient resource usage
-2. ✅ Handles high concurrency (many users at once)
-3. ✅ Integrates smoothly with major cloud providers
-4. ✅ Supports rapid development through npm
-5. ✅ Scales easily in serverless and containerized environments
+### Reasons why Node.js is ideal for cloud because it:
+1.  Maximizes performance with efficient resource usage
+2.  Handles high concurrency (many users at once)
+3.  Integrates smoothly with major cloud providers
+4.  Supports rapid development through npm
+5.  Scales easily in serverless and containerized environments
 
 ---
 
