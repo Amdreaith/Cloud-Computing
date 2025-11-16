@@ -2,7 +2,7 @@
 
 This repository contains lecture notes, code examples, and hands-on exercises for backend development in cloud environments.
 
-## 📚 Course Contents
+##  Course Contents
 
 ### [Lecture 1: Introduction to Cloud Computing](./Lecture/Lecture1.md)
 Learn the fundamentals of cloud computing, service models, and major cloud providers.
@@ -65,7 +65,7 @@ Understand middleware patterns and their applications in Express.
 - Creating Custom Middleware Functions
 
 
-## 💻 Technologies Used
+## Technologies Used
 
 - **Node.js** - JavaScript runtime environment
 - **Express.js** - Web framework for Node.js
@@ -74,7 +74,7 @@ Understand middleware patterns and their applications in Express.
 - **curl** - API testing tool
 
 
-## 📝 Additional Resources
+## Additional Resources
 
 ### Official Documentation
 - [Node.js Documentation](https://nodejs.org/en/docs/)
