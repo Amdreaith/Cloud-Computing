@@ -218,7 +218,7 @@ DELETE /api/v1/deleteBook
 GET /api/v1/books       // Get all books
 GET /api/v1/books/1     // Get one book
 
-// ❌ AVOID: Singular (confusing)
+//  AVOID: Singular (confusing)
 GET /api/v1/book        // All books or one book?
 ```
 
