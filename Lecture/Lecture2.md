@@ -2,13 +2,13 @@
 
 ## What is Node.js?
 
-** >> it is a Open-source runtime environment that runs JavaScript code **outside of a browser**
+ >> it is a Open-source runtime environment that runs JavaScript code **outside of a browser**
 
 **Built on**: V8 JavaScript engine (same as Google Chrome)
 
 **Key Feature**: Enables server-side development with JavaScript → Use same language for frontend AND backend
 
----
+
 
 ## Node.js Runtime Environment
 
@@ -30,7 +30,7 @@ node --version
 # Should output: v2x.xx.x
 ```
 
----
+
 
 ## Core Modules
 
@@ -52,7 +52,6 @@ console.log("Total Memory:", os.totalmem());      // Total RAM in bytes
 console.log("Free Memory:", os.freemem());        // Available RAM in bytes
 ```
 
----
 
 ### 2. The `fs` Module (File System)
 
@@ -77,7 +76,7 @@ console.log("Updated File Content:", fs.readFileSync('example.txt', 'utf-8'));
 
 **Note**: After running, a new file `example.txt` is created in your project folder
 
----
+
 
 ### 3. The `http` Module (Web Server)
 
@@ -109,7 +108,7 @@ server.listen(3000, () => {
 2. Open browser: `http://localhost:3000`
 3. Stop server: Press `Ctrl + C` in terminal
 
----
+
 
 ## Why Node.js is Useful in Cloud Computing
 
@@ -138,7 +137,7 @@ All major cloud providers support Node.js:
 4.  Supports rapid development through npm
 5.  Scales easily in serverless and containerized environments
 
----
+
 
 ## Key Concepts Recap
 
@@ -150,7 +149,7 @@ All major cloud providers support Node.js:
 | **Core Modules** | Built-in functionality (os, fs, http) - no install needed |
 | **Serverless** | Run code without managing servers (AWS Lambda, Azure Functions) |
 
----
+
 
 ## Common Use Cases in Cloud:
 - REST APIs
