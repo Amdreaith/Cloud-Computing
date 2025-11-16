@@ -90,7 +90,7 @@
 2. Use cloud databases (AWS DynamoDB, Azure CosmosDB, Firebase)
 3. Deploy API to cloud for global access
 
-** Insight **: Almost all modern backend development uses cloud platforms for hosting and scaling
+**Insight** : Almost all modern backend development uses cloud platforms for hosting and scaling
 
 
 ## Benefits of Cloud Computing
