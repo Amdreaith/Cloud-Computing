@@ -1,4 +1,5 @@
-# IT ELECTIVE
+<img width="1078" height="219" alt="image" src="https://github.com/user-attachments/assets/7a0be7dd-a1fb-4937-8f11-96c195e678d5" />
+
 
 This repository contains lecture notes, code examples, and hands-on exercises for backend development in cloud environments.
 
